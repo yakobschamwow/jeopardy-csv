@@ -48,7 +48,7 @@ function renderTeamBoxContainer(teams) {
     upBtn.onclick = () => {
       microclickSound.currentTime = 0;
       microclickSound.play();
-      team.score += 100;
+      team.score += 50;
       renderTeamBoxContainer(teams);
     };
 
@@ -61,7 +61,7 @@ function renderTeamBoxContainer(teams) {
     downBtn.onclick = () => {
       microclickSound.currentTime = 0;
       microclickSound.play();
-      team.score -= 100;
+      team.score -= 50;
       renderTeamBoxContainer(teams);
     };
 
